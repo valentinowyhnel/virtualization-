@@ -79,3 +79,12 @@ Obtenir des informations sur le processeur de l’hôte (famille, modèle et cac
 Obtenir des informations sur la mémoire (accès à la mémoire disponible et non uniforme) :
 
 `esxcli hardware memory get  `
+
+Configuration et informations sur syslog :
+
+`  esxcli system syslog `
+
+Générer un ensemble d’informations de support et de journal à partir de l’hôte :
+
+`  vm-support `
+
