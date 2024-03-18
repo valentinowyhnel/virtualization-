@@ -30,7 +30,7 @@ La ligne de commande est souvent utilisée pour la gestion des ressources dans l
 
 En résumé, l'utilisation de la ligne de commande pour la gestion des ressources dans la virtualisation offre une automatisation, un contrôle précis, une gestion à distance et une intégration avec d'autres outils, ce qui en fait un choix privilégié pour les administrateurs qui cherchent à optimiser les performances et l'efficacité de leurs environnements virtualisés.
 
-**Généralités**
+## Généralités
 
 Obtenir les numéros de build et de version d’ESXi :
 
