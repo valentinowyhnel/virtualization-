@@ -63,3 +63,19 @@ Répertorier tous les espaces de noms disponibles avec les commandes corresponda
 Activer/Désactiver le mode de maintenance :
 
 `  esxcli system maintenanceMode set -enable true  `
+
+Redémarrer/redémarrer l’hôte ESXi :
+
+` esxcli system shutdown reboot -r "message" `
+
+Redémarrer/redémarrer l’hôte en mode de maintenance ESXi avec compte à rebours :
+
+` esxcli system reboot -d 10 -r "Patch Updates" `
+
+Obtenir des informations sur le processeur de l’hôte (famille, modèle et cache) :
+
+` esxcli hardware cpu list `
+
+Obtenir des informations sur la mémoire (accès à la mémoire disponible et non uniforme) :
+
+`esxcli hardware memory get  `
