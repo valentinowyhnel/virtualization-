@@ -88,3 +88,20 @@ Générer un ensemble d’informations de support et de journal à partir de l�
 
 `  vm-support `
 
+## Gestion 
+
+Gestion des redémarrages, services HA (accédez au répertoire /sbin/services) :
+
+` restart `
+
+Liste des machines virtuelles (VMID) :
+
+` vim-cmd vmsvc/getallvms `
+
+Répertorier les machines virtuelles en cours d’exécution avec l’ID mondial
+
+` esxcli vm process list  `
+
+Arrêter le processus de machine virtuelle en cours d’exécution (mise hors tension forcée de la machine virtuelle) :
+
+` esxcli vm process kill `
